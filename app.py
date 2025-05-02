@@ -738,7 +738,7 @@ from scipy.optimize import minimize
 
 st.set_page_config(page_title="Tree Plantation Optimizer", layout="wide")
 
-st.title("🌳 Tree Plantation Optimizer")
+st.title("🌳 Navchetna Tree Plantation Optimizer")
 
 # ------------------- Inputs ------------------- #
 
