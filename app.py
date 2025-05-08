@@ -494,7 +494,7 @@ if run_opt:
             st.success("✅ Optimization successful!")
 
             st.subheader("📋 Optimized Plantation Plan")
-            st.dataframe(df[['Tree', 'Final_Percentage', 'Adjusted_Spacing', 'Trees']], use_container_width=True)
+            st.dataframe(df[['Tree', 'Final_Percentage', 'Adjusted_Spacing', 'Trees','Area(Hectare)']], use_container_width=True)
 
             st.markdown(f"**Total Trees:** {total_trees}")
             st.markdown(f"**Total Area Used:** {total_area_used_sqft:,.2f} sqft ({total_area_used_hectare:.2f} hectares)")
