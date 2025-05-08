@@ -483,7 +483,7 @@ if run_opt:
             trees = np.round(result.x).astype(int)
             df['Trees'] = trees
             df['Final_Percentage'] = np.round((df['Trees'] / df['Trees'].sum()) * 100, 2)
-            df['Area(Hectare)']=df['Trees']*df['Adjusted_Spacing']/107639.104
+            df['Area(Hectare)']=df['Trees']*df['Adjusted_Spacing']**2/107639.104
             
 
             total_trees = df['Trees'].sum()
