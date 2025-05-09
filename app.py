@@ -402,7 +402,7 @@ st.subheader("🌿 Tree Species Configuration")
 
 default_data = {
     'Tree': ['Mango', 'Jackfruit', 'Guava', 'Bael', 'Gooseberry', 'Mahogani', 'Teak', 'Rosewood'],
-    'Target_Percentage': [13, 10, 10, 7, 25, 10, 20, 5],
+    'Target_Percentage': [13.0, 10.0, 10.0, 7.0, 25.0, 10.0, 20.0, 5.0],
     'Spacing': [15.0, 14.0, 12.0, 12.0, 12.0, 8.0, 8.0, 8.0]
 }
 
